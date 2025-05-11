@@ -115,7 +115,7 @@ public:
 
     void placeOrder() {
         if (cart.items.empty()) {
-            cout << "Кошик порожній!" << endl;
+            cout << "Кошик порожній" << endl;
             return;
         }
         string orderID = "ORD" + to_string(orderHistory.size() + 1);
